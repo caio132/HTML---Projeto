@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>MENU</title>
+	</head>
+	<body>
+		<center>
+		<h1>MENU</h1>
+		<br/>
+		<hr/>
+		<form action="menu.cgi" method="post">
+			DNS: <br/>
+			<input type="submit" name="Iniciar" value="Iniciar">
+			<input type="submit" name="Parar" value="Parar">
+			<input type="submit" name="Reiniciar" value="Reiniciar">
+		</form>	
+		<form action="nagios.cgi" method="post">
+			NAGIOS: <br/>
+			<input type="submit" name="Iniciarn" value="Iniciar">
+			<input type="submit" name="Pararn" value="Parar">
+			<input type="submit" name="Reiniciarn" value="Reiniciar">
+		</form>
+		<form action="firewall.cgi" method="post">	
+			FIREWALL: <br/>
+			<input type="submit" name="Iniciarf" value="Iniciar">
+			<input type="submit" name="Pararf" value="Parar">
+			<input type="submit" name="Reiniciarf" value="Reiniciar">
+		</form>
+		</center>
+	</body>
+</html>
