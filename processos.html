@@ -1,19 +1,25 @@
 <html>
-	<head>
-		<title>Login</title>
-	</head>
-	<body>
-		<center>
-		<h1>Processos</h1>
-		<br/>
-		<hr/>
-		<form action="proc.cgi" method="post">
-			Qual tipo de Processos você vai querer Analisar: <br/>
-			<input type="submit" name="bind" value="DNS">
-			<input type="submit" name="nag" value="NAGIOS">
-			<input type="submit" name="fire" value="FIREWALL">
-			<input type="submit" name="tod" value="Todos os Anteriores">
-		</form>
-		</center>
-	</body>
+<link rel="stylesheet" href="menuprin.css">
+
+<head>
+	<title>Login</title>
+</head>
+
+<body>
+	<div class="body">
+		<div class="center">
+			<h1>Processos</h1>
+			<br/>
+			<hr/>
+			<form action="proc.cgi" method="post">
+				Qual tipo de Processos você vai querer Analisar:
+				<br/>
+				<input type="submit" name="bind" value="DNS">
+				<input type="submit" name="nag" value="NAGIOS">
+				<input type="submit" name="fire" value="FIREWALL">
+				<input type="submit" name="tod" value="Todos os Anteriores">
+			</form>
+		</div>
+	</div>
+</body>
 </html>
